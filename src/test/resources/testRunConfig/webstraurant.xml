@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Assessment" >
+    <test name="WebstaurantTask" >
+        <parameter name="browser" value="CHROME"/>
+        <classes>
+            <class name="WebstaurantTaskTest" />
+        </classes>
+    </test>
+</suite>
